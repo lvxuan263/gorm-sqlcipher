@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"strconv"
 
-	"gorm.io/gorm/callbacks"
+	_ "github.com/zhaobingss/go-sqlcipher/v4"
 
-	_ "github.com/mattn/go-sqlite3"
 	"gorm.io/gorm"
+	"gorm.io/gorm/callbacks"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/migrator"
